@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Dancing+Script&family=Dosis:wght@200..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(230, 246, 255);
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* text-align: center; */
+    height: 10%;
+    width: 100%;
+    background-color: rgb(64, 130, 147);
+    font-family: 'Agu Display', sans-serif;
+}
+
+#container{
+    margin: 4rem 4rem 4rem 4rem;
+    /* height: 50vw; */
+    height: 35rem;
+    width: 90vw;
+    /* border: 1px solid black; */
+    background-color: rgb(150, 192, 255);
+    border-radius: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 1rem; */
+    
+    
+}
+.display{
+    width: 80%;
+    height: 80%;
+    margin: 2rem;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: rgb(99, 125, 162);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+}
+.input{
+    border: none;
+    background-color:rgb(150, 192, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 2/3;
+}
+#city{
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    height: 1.5rem;
+    width: 15rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+}
+#submit{
+    border: none;
+    width: 8rem;
+    border-radius: 1rem;
+    text-align: center;
+    height: 1.5rem;
+    font-size: 1rem;
+}
+#submit:hover{
+    background-color: rgb(129, 129, 129);
+    scale: 1.08;
+}
+
+
