@@ -1,25 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    
-</head>
-<body>
-    <header><H1>Weather enquiry For Your City</H1></header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Enquiry</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Weather Enquiry For Your City</h1>
+    </header>
     <main>
-        <div id="container">
-            <div class="display" id="details">Region Details</div>
-            <div class="display" id="temp">Temp details</div>
-            <div class="display" id="wind"> Wind details</div>
-            <div class="display input" id="form">
-                <input type="text" id="city" placeholder="Enter city name">
-                <input id="submit" type="submit">
-            </div>
+      <div id="container">
+        <div class="search-container">
+          <input type="text" id="search" placeholder="Enter Location..." />
+          <button id="search-btn">Go</button>
         </div>
+        <div id="weather-details" style="display: none">
+          <div id="img">
+            <img
+              src="images/default.svg"
+              alt="Weather Condition Icon"
+              class="condition"
+            />
+          </div>
+
+          <div class="box">
+            <i class="fa-solid fa-temperature-three-quarters"></i
+            ><span id="temp">Temp</span>
+          </div>
+          <div class="details">
+            <div id="logo" class="box">
+              <i class="fa-sharp fa-solid fa-droplet"></i
+              ><span id="condition">Humidity</span>
+            </div>
+
+            <div id="speed" class="box">
+              <i class="fa-solid fa-wind"></i><span id="wind">Wind Speed</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <script src="script.js"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/5b36315feb.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
