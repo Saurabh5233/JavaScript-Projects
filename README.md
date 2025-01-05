@@ -19,7 +19,7 @@ This is a Guess the Number game, a basic implementation of javaScript.
 
 
 ## Project 4
-[Filter Products](https://saurabh5233.github.io/JavaScript-Projects/Guess%20A%20Number/)
+[Filter Products](https://saurabh5233.github.io/JavaScript-Projects/Filter%20Products/)
 
 This is a Simple Ecomm website that displays products based on category user select, a basic implementation of javaScript.
 
