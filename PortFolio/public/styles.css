@@ -57,9 +57,10 @@ nav {
 
 /* Logo Styles */
 .logo img {
-    width: 6rem;
+    background-color: white;
+    width: 10rem;
     height: 6rem;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     box-shadow: 0 0 10px rgba(100, 255, 218, 0.3);
     transition: var(--transition);
 }
@@ -155,13 +156,15 @@ nav {
 }
 
 #home .background-logo img {
+    height: 40rem;
+    width: 40rem;
     transition: transform 0.3s ease, filter 0.3s ease; 
 }
 
 #home .background-logo img:hover {
     box-shadow: 0 0 20px rgba(100, 255, 218, 0.5);
-    transform: scale(1.01); /* Slight zoom effect */
-    filter: brightness(1.2); /* Brighten the image */
+    transform: scale(1.01);     /* Slight zoom effect */
+    filter: brightness(1.05);    /* Brighten the image */
 }
 
 
