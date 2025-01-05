@@ -185,10 +185,34 @@ nav {
     text-shadow: 0 0 10px rgba(204, 214, 246, 0.2);
 }
 
+/* .animated-text {
+    color: var(--accent);
+    text-shadow: 0 0 10px rgba(100, 255, 218, 0.3);
+} */
+
+@keyframes slideIn {
+    from {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 .animated-text {
     color: var(--accent);
     text-shadow: 0 0 10px rgba(100, 255, 218, 0.3);
+    display: inline-block;
+    opacity: 0; /* Initially hidden */
 }
+
+.animated-text.slide-in {
+    animation: slideIn 0.6s ease-in-out forwards; /* Animation duration: 0.6s */
+}
+
+
 
 /* Background Logo Styles */
 .background-logo {

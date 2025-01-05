@@ -45,7 +45,7 @@ function createShape() {
 
 function initShapes() {
     const container = document.getElementById('background-shapes');
-    const numShapes = 20; // Increased number of shapes
+    const numShapes = 40; // Increased number of shapes
     
     for (let i = 0; i < numShapes; i++) {
         const shape = createShape();
