@@ -1,5 +1,5 @@
 // Text animation
-const texts = ["Web Development", "Problem Solving", "UI/UX Design", "Machine Learning"];
+const texts = ["FrontEnd Development", "BackEnd Development", "Full-Stack Development", "Machine Learning", "Problem Solving"];
 let count = 0;
 
 function changeText() {
