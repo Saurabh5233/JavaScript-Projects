@@ -19,13 +19,13 @@ This is a Guess the Number game, a basic implementation of javaScript.
 
 
 ## Project 4
-[Filter Products](https://java-script-projects-eqsuwa029-saurabh-shandilyas-projects.vercel.app)
+[Filter Products](https://java-script-projects-two.vercel.app/)
 
 This is a Simple Ecomm website that displays products based on category user select, a basic implementation of javaScript.
 
 
 ## Project 5
-[PortFolio](https://portfolio-woad-phi-25.vercel.app/#home)
+[PortFolio](https://portfolio-woad-phi-25.vercel.app/)
 
 My PortFolio website to showcase my areas of interest and Projects that i have worked on.
 
